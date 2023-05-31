@@ -60,6 +60,8 @@ Mobile.setText(findTestObject('Shipping Address/Country-field'), 'United Kingdom
 
 Mobile.tap(findTestObject('Shipping Address/btn-ToPayment'), 0)
 
+WebUI.delay(10)
+
 //Mobile.tap(findTestObject('Payment Method/field-Name'), 0)
 Mobile.setText(findTestObject('Payment Method/android.widget.EditText - Rebecca Winter (1)'), 'Rebecca Winter', 0)
 
