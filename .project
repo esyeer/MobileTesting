@@ -15,6 +15,38 @@
 		<nature>org.eclipse.jdt.groovy.core.groovyNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>kat-4289268949762840528.groovy</name>
+			<type>1</type>
+			<location>C:/Users/ACER/AppData/Local/Temp/Katalon/Web Services/kat-4289268949762840528.groovy</location>
+		</link>
+		<link>
+			<name>kat-449171509605862397.groovy</name>
+			<type>1</type>
+			<location>C:/Users/ACER/AppData/Local/Temp/Katalon/Web Services/kat-449171509605862397.groovy</location>
+		</link>
+		<link>
+			<name>kat-7373745263160186302.groovy</name>
+			<type>1</type>
+			<location>C:/Users/ACER/AppData/Local/Temp/Katalon/Web Services/kat-7373745263160186302.groovy</location>
+		</link>
+		<link>
+			<name>kat-7416364889103322462.groovy</name>
+			<type>1</type>
+			<location>C:/Users/ACER/AppData/Local/Temp/Katalon/Web Services/kat-7416364889103322462.groovy</location>
+		</link>
+		<link>
+			<name>kat-7995309838757238903.groovy</name>
+			<type>1</type>
+			<location>C:/Users/ACER/AppData/Local/Temp/Katalon/Web Services/kat-7995309838757238903.groovy</location>
+		</link>
+		<link>
+			<name>kat-8863455347915675065.groovy</name>
+			<type>1</type>
+			<location>C:/Users/ACER/AppData/Local/Temp/Katalon/Web Services/kat-8863455347915675065.groovy</location>
+		</link>
+	</linkedResources>
 	<filteredResources>
 		<filter>
 			<id>1685514509341</id>

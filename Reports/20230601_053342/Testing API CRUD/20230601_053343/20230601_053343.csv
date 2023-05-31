@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Testing API CRUD,,,,2023-06-01 05:33:46,2023-06-01 05:33:55,9.366s,FAILED
+,,,,,,,
+Test Cases/API Testing/Create a new booking,,,,2023-06-01 05:33:46,2023-06-01 05:33:50,3.921s,PASSED
+"response = sendRequest(findTestObject(""API Testing/Create Booking""))",,,,2023-06-01 05:33:47,2023-06-01 05:33:50,3.326s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-06-01 05:33:50,2023-06-01 05:33:50,0.015s,PASSED
+"verifyElementPropertyValue(response, ""booking.firstname"", ""Sam"")",,,,2023-06-01 05:33:50,2023-06-01 05:33:50,0.059s,PASSED
+"verifyElementPropertyValue(response, ""booking.lastname"", ""Brown"")",,,,2023-06-01 05:33:50,2023-06-01 05:33:50,0.022s,PASSED
+"verifyElementPropertyValue(response, ""booking.totalprice"", ""111"")",,,,2023-06-01 05:33:50,2023-06-01 05:33:50,0.022s,PASSED
+"verifyElementPropertyValue(response, ""booking.additionalneeds"", ""Breakfast"")",,,,2023-06-01 05:33:50,2023-06-01 05:33:50,0.020s,PASSED
+,,,,,,,
+Test Cases/API Testing/Delete Booking,,,,2023-06-01 05:33:50,2023-06-01 05:33:52,1.411s,PASSED
+"response = sendRequest(findTestObject(""API Testing/Delete Booking""))",,,,2023-06-01 05:33:50,2023-06-01 05:33:52,1.196s,PASSED
+,,,,,,,
+Test Cases/API Testing/Get booking by Id,,,,2023-06-01 05:33:52,2023-06-01 05:33:53,1.503s,FAILED
+"response = sendRequest(findTestObject(""API Testing/Get booking details""))",,,,2023-06-01 05:33:52,2023-06-01 05:33:53,1.208s,PASSED
+"verifyElementPropertyValue(response, ""firstname"", ""Josh"")",,,,2023-06-01 05:33:53,2023-06-01 05:33:53,0.060s,FAILED
+,,,,,,,
+Test Cases/API Testing/Update booking,,,,2023-06-01 05:33:53,2023-06-01 05:33:55,2.157s,PASSED
+"response = sendRequest(findTestObject(""API Testing/Update Booking""))",,,,2023-06-01 05:33:53,2023-06-01 05:33:55,1.843s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-06-01 05:33:55,2023-06-01 05:33:55,0.003s,PASSED
+"verifyElementPropertyValue(response, ""firstname"", ""James"")",,,,2023-06-01 05:33:55,2023-06-01 05:33:55,0.024s,PASSED
+"verifyElementPropertyValue(response, ""lastname"", ""Brown"")",,,,2023-06-01 05:33:55,2023-06-01 05:33:55,0.023s,PASSED
+"verifyElementPropertyValue(response, ""totalprice"", ""111"")",,,,2023-06-01 05:33:55,2023-06-01 05:33:55,0.016s,PASSED
+"verifyElementPropertyValue(response, ""additionalneeds"", ""Breakfast"")",,,,2023-06-01 05:33:55,2023-06-01 05:33:55,0.016s,PASSED

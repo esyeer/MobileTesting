@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Testing API CRUD,,,,2023-06-01 05:37:12,2023-06-01 05:37:21,8.865s,PASSED
+,,,,,,,
+Test Cases/API Testing/Create a new booking,,,,2023-06-01 05:37:12,2023-06-01 05:37:16,3.791s,PASSED
+"response = sendRequest(findTestObject(""API Testing/Create Booking""))",,,,2023-06-01 05:37:13,2023-06-01 05:37:16,3.187s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-06-01 05:37:16,2023-06-01 05:37:16,0.016s,PASSED
+"verifyElementPropertyValue(response, ""booking.firstname"", ""Sam"")",,,,2023-06-01 05:37:16,2023-06-01 05:37:16,0.048s,PASSED
+"verifyElementPropertyValue(response, ""booking.lastname"", ""Brown"")",,,,2023-06-01 05:37:16,2023-06-01 05:37:16,0.022s,PASSED
+"verifyElementPropertyValue(response, ""booking.totalprice"", ""111"")",,,,2023-06-01 05:37:16,2023-06-01 05:37:16,0.016s,PASSED
+"verifyElementPropertyValue(response, ""booking.additionalneeds"", ""Breakfast"")",,,,2023-06-01 05:37:16,2023-06-01 05:37:16,0.021s,PASSED
+,,,,,,,
+Test Cases/API Testing/Delete Booking,,,,2023-06-01 05:37:16,2023-06-01 05:37:18,1.452s,PASSED
+"response = sendRequest(findTestObject(""API Testing/Delete Booking""))",,,,2023-06-01 05:37:16,2023-06-01 05:37:18,1.187s,PASSED
+,,,,,,,
+Test Cases/API Testing/Get booking by Id,,,,2023-06-01 05:37:18,2023-06-01 05:37:19,1.557s,PASSED
+"response = sendRequest(findTestObject(""API Testing/Get booking details""))",,,,2023-06-01 05:37:18,2023-06-01 05:37:19,1.246s,PASSED
+"verifyElementPropertyValue(response, ""firstname"", ""John"")",,,,2023-06-01 05:37:19,2023-06-01 05:37:19,0.036s,PASSED
+"verifyElementPropertyValue(response, ""lastname"", ""Smith"")",,,,2023-06-01 05:37:19,2023-06-01 05:37:19,0.027s,PASSED
+"verifyElementPropertyValue(response, ""totalprice"", ""111"")",,,,2023-06-01 05:37:19,2023-06-01 05:37:19,0.015s,PASSED
+"verifyElementPropertyValue(response, ""additionalneeds"", ""Breakfast"")",,,,2023-06-01 05:37:19,2023-06-01 05:37:19,0.014s,PASSED
+,,,,,,,
+Test Cases/API Testing/Update booking,,,,2023-06-01 05:37:19,2023-06-01 05:37:21,1.759s,PASSED
+"response = sendRequest(findTestObject(""API Testing/Update Booking""))",,,,2023-06-01 05:37:19,2023-06-01 05:37:21,1.459s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-06-01 05:37:21,2023-06-01 05:37:21,0.004s,PASSED
+"verifyElementPropertyValue(response, ""firstname"", ""James"")",,,,2023-06-01 05:37:21,2023-06-01 05:37:21,0.032s,PASSED
+"verifyElementPropertyValue(response, ""lastname"", ""Brown"")",,,,2023-06-01 05:37:21,2023-06-01 05:37:21,0.016s,PASSED
+"verifyElementPropertyValue(response, ""totalprice"", ""111"")",,,,2023-06-01 05:37:21,2023-06-01 05:37:21,0.015s,PASSED
+"verifyElementPropertyValue(response, ""additionalneeds"", ""Breakfast"")",,,,2023-06-01 05:37:21,2023-06-01 05:37:21,0.017s,PASSED
