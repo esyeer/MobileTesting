@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002-Login With Username Locked</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc65ef65-7f7e-47f2-94fc-c7bcc0d0eb5d</testCaseGuid>
+</TestCaseEntity>
